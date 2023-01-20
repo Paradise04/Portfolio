@@ -94,6 +94,7 @@ p{
 
     /*The three properties above can be used to fix the position of a bg image or video
     according to the screen siz right: 0; and bottom:0;  */
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 
