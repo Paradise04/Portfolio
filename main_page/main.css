@@ -99,6 +99,7 @@ p{
     height: 100vh;
 
     z-index: -1; /*z-index -1 lowers the priority of the video making it go into the background*/
+    background-color: black;
 }
 
 
