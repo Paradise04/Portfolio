@@ -87,13 +87,15 @@ p{
 }*/
 
 .vid{
-    position: absolute;
+    position: fixed;
     right: 0; /* makes the div come to the mid*/ 
     bottom: 0; /* the use of bottom:0; If the element is in position absolute, the element will position itself 
     from the bottom of the first positioned ancestor.*/
 
     /*The three properties above can be used to fix the position of a bg image or video
     according to the screen siz right: 0; and bottom:0;  */
+    width: 100%;
+    height: 100%;
 
     z-index: -1; /*z-index -1 lowers the priority of the video making it go into the background*/
 }
