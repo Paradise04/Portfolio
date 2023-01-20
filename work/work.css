@@ -53,7 +53,7 @@ body{
 }
 
 .container:hover {
-  box-shadow: 5px 10px 10px 0px rgba(124, 203, 239, 0.892);
+  box-shadow: 5px 10px 10px 0px rgba(124, 203, 239, 0.900);
 }
 
 img {
