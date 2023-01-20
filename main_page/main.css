@@ -1,0 +1,101 @@
+body{
+    /*background-image: url("");*/
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+.main_ul {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+
+}
+
+p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5vmax;
+}
+
+.buttons{
+    padding: 14px 10px;
+    color: rgb(206, 226, 226);
+    border: 2px solid rgba(59, 38, 220, 0.7);
+    box-shadow: 0px 4px 10px rgba(59, 38, 220, 0.7);
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vmax;
+    border-radius: 1vmax;
+    background: rgba(32, 57, 85, 0.6);
+    transition: 0.2s ease-in-out;
+}
+
+.buttons:hover{
+    background: rgba(32, 57, 85, 0.8);
+    box-shadow: 0px 5px 14px rgba(59, 38, 220, 0.8);
+}
+
+.centercontainer {
+    width: fit-content;
+    margin: 0 auto;
+    /* The width:fit-content is important because what it does is that it
+    doesn't change the direction and width of our container even if the device is changed or
+    the zoom. */
+}
+
+
+.hr{
+    color:1px solid rgba(38, 186, 249, 0.6)
+    
+}
+
+/* stuff I added */
+/*.centercontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}*/
+
+.vid{
+    position: absolute;
+    right: 0; /* makes the div come to the mid*/ 
+    bottom: 0; /* the use of bottom:0; If the element is in position absolute, the element will position itself 
+    from the bottom of the first positioned ancestor.*/
+
+    /*The three properties above can be used to fix the position of a bg image or video
+    according to the screen siz right: 0; and bottom:0;  */
+
+    z-index: -1; /*z-index -1 lowers the priority of the video making it go into the background*/
+}
+
+

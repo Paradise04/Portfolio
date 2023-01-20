@@ -1,0 +1,85 @@
+body{
+  background-image: url("/images/p_bg8.jpg");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  overflow: scroll;
+  font-family: 'Merriweather', serif;
+  
+}
+
+
+
+
+.btn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+
+/* Darker background on mouse-over */
+.btn:hover {
+ color: blue;
+ 
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  transition: 0.25s;
+  width: 350px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid cyan;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin: 30px;
+
+}
+
+.container:hover {
+  box-shadow: 5px 10px 10px 0px rgba(124, 203, 239, 0.892);
+}
+
+img {
+  border-radius: 5px 5px;
+  opacity: 0.8;
+  
+}
+
+.card {
+  padding: 4px 16px;
+  background-color: white;
+  opacity: 0.7;
+  color: black;
+  font: bolder;
+}
+
+
+h1{
+  font-size: 40px;
+  font-family: Arial, 
+      Helvetica, sans-serif;
+  background: linear-gradient(
+      to right, #216ef3, #093fe1,
+       #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
